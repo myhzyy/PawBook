@@ -1,0 +1,2 @@
+- Fix story size
+- add likes and commnets to pictures

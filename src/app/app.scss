@@ -15,7 +15,7 @@
   padding: 5px 10px;
   font-weight: bold;
   font-size: 1rem;
-  border-bottom: 1px solid #ddd; /* Light gray border */
+  border-bottom: 1px solid #ddd;
   height: 50px;
   background: #fff;
 }
@@ -65,12 +65,11 @@
 
 .story img {
   border-radius: 50%;
-  border: 2px solid transparent;
   background-image: linear-gradient(to right, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
   background-origin: border-box;
-  padding: 2px;
-  width: 60px;
-  height: 60px;
+  padding: 1px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
 }
 
