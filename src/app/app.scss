@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background: #fff; /* White background */
-  color: #000; /* Black text */
+  background: #fff;
+  color: #000;
   font-family: Arial, sans-serif;
 }
 
@@ -20,7 +20,6 @@
   background: #fff;
 }
 
-/* Profile picture */
 .profile-pic {
   width: 32px;
   height: 32px;
@@ -29,48 +28,67 @@
   cursor: pointer;
 }
 
-/* Title */
 .header h1 {
   flex: 1;
   text-align: center;
   margin: 0;
   font-size: 1.1rem;
-  color: #000;
 }
 
-/* Burger menu */
 .burger {
   font-size: 1.4rem;
   cursor: pointer;
   color: #000;
 }
 
-/* Stories */
-.stories {
-  display: flex;
-  overflow-x: auto;
-  gap: 12px;
-  padding: 10px;
+/* Events Section - Compact */
+.events {
+  padding: 8px 10px;
   border-bottom: 1px solid #ddd;
-  background: #fff;
+  background: #fafafa;
 }
 
-.story {
+.events-title {
+  font-size: 0.85rem;
+  margin: 0 0 8px 4px;
+  color: #444;
+  font-weight: bold;
+}
+
+.events-bubbles {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.event-bubble {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 0.75rem;
-  color: #333; /* Dark gray text */
+  min-width: 75px;
+  text-align: center;
+  flex-shrink: 0;
 }
 
-.story img {
+.event-bubble img {
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
-  background-image: linear-gradient(to right, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-  background-origin: border-box;
-  padding: 1px;
-  width: 40px;
-  height: 40px;
   object-fit: cover;
+  border: 2px solid #00bfff; /* highlight */
+}
+
+.event-bubble span {
+  margin-top: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.event-bubble small {
+  font-size: 0.65rem;
+  color: #777;
 }
 
 /* Feed */
@@ -127,7 +145,7 @@
 }
 
 .nav-item.active {
-  color: #00bfff; /* Highlight color */
+  color: #00bfff;
 }
 
 .profile-icon {
