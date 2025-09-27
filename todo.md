@@ -3,7 +3,8 @@
 - add likes and comments to pictures div ✅
 - render some dummy json data into ✅
 - top header and footer should stay static ✅
-- change dog images
+- change dog images ✅
+- implement like amount
 - finish all static pages first
 
 ------ features

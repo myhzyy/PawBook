@@ -72,3 +72,32 @@
   color: #333;
   line-height: 1.4;
 }
+
+.caption strong {
+}
+
+.likes-and-postDate {
+  // border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0 0px;
+  margin: 4px 0;
+}
+
+.image-likes,
+.post-date {
+  margin: 0;
+}
+
+.image-likes {
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.post-date {
+  color: #555555;
+  margin-top: 1px;
+  font-size: 12px;
+  font-weight: 100;
+}
