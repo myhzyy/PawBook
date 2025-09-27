@@ -1,13 +1,16 @@
 <!-- Feed -->
+
 <main class="feed">
-  <!-- Post 1 -->
+  <!-- Posts -->
+
+  @for (post of feedService.posts; track post.id) {
   <div class="post">
     <div class="post-header">
-      <img src="https://placedog.net/40/40?id=21" class="avatar" />
-      <span class="username">BuddyTheBeagle</span>
+      <img src="{{ post.avatarUrl }}" class="avatar" />
+      <span class="username">{{ post.username }}</span>
     </div>
 
-    <img src="https://placedog.net/500/400?id=22" class="post-img" />
+    <img src="{{ post.imageUrl }}" class="post-img" />
 
     <div class="caption-like-section">
       <div class="likes-and-comments">
@@ -15,26 +18,11 @@
         <button class="icon-btn">💬</button>
       </div>
 
-      <p class="caption"><strong>BuddyTheBeagle</strong> Chasing squirrels 🐿️ all morning!</p>
+      <p class="caption">
+        <strong>{{ post.username }}</strong> {{ post.caption }}
+      </p>
     </div>
   </div>
 
-  <!-- Post 2 -->
-  <div class="post">
-    <div class="post-header">
-      <img src="https://placedog.net/40/40?id=23" class="avatar" />
-      <span class="username">LunaTheLab</span>
-    </div>
-
-    <img src="https://placedog.net/500/400?id=24" class="post-img" />
-
-    <div class="caption-like-section">
-      <div class="likes-and-comments">
-        <button class="icon-btn">❤️</button>
-        <button class="icon-btn">💬</button>
-      </div>
-
-      <p class="caption"><strong>LunaTheLab</strong> New ball, who dis? 🎾</p>
-    </div>
-  </div>
+  }
 </main>

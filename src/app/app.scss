@@ -9,6 +9,10 @@
 
 /* Header */
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,6 +22,7 @@
   border-bottom: 1px solid #ddd;
   height: 50px;
   background: #fff;
+  z-index: 200;
 }
 
 .profile-pic {
@@ -43,13 +48,19 @@
 
 /* Events Section */
 .events {
+  position: fixed;
+  top: 50px; /* just below header */
+  left: 0;
+  right: 0;
   padding: 8px 10px;
   border-bottom: 1px solid #ddd;
   background: #fafafa;
+  z-index: 150;
 }
 
 .events-title {
   font-size: 0.85rem;
+  padding-top: 10px;
   margin: 0 0 8px 4px;
   color: #444;
   font-weight: bold;
@@ -96,6 +107,8 @@
   flex: 1;
   overflow-y: auto;
   background: #fff;
+  margin-top: 120px; /* header (50px) + events (~70px) */
+  padding-bottom: 70px; /* avoid overlap with footer */
 }
 
 .post {
@@ -115,16 +128,51 @@
   border-radius: 50%;
 }
 
+.username {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
 .post-img {
   width: 100%;
   display: block;
   border-radius: 4px;
 }
 
-.caption {
+/* Caption + Likes Section */
+.caption-like-section {
   padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.likes-and-comments {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  justify-content: flex-start;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  transition: transform 0.15s ease;
+  padding: 0;
+}
+
+.icon-btn:hover {
+  transform: scale(1.2);
+}
+
+.caption {
+  margin: 0;
   font-size: 0.9rem;
   color: #333;
+  line-height: 1.4;
 }
 
 /* Footer Navigation */
@@ -158,11 +206,4 @@
   border-radius: 50%;
   width: 28px;
   height: 28px;
-}
-
-.feed {
-  flex: 1;
-  overflow-y: auto;
-  background: #fff;
-  padding-bottom: 70px;
 }
