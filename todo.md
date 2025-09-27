@@ -1,5 +1,5 @@
 - Fix story size ✅
-- sort router for main page
+- sort router for main page ✅
 - add likes and comments to pictures div
 - render some dummy json data into
 - finish all static pages first

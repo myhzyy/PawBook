@@ -134,13 +134,19 @@
   padding: 10px 0;
   border-top: 1px solid #ddd;
   background: #fff;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 .nav-item {
   background: none;
   border: none;
   color: #000;
-  font-size: 1.6rem; /* slightly bigger for emojis */
+  font-size: 1.6rem;
   cursor: pointer;
 }
 
@@ -152,4 +158,11 @@
   border-radius: 50%;
   width: 28px;
   height: 28px;
+}
+
+.feed {
+  flex: 1;
+  overflow-y: auto;
+  background: #fff;
+  padding-bottom: 70px;
 }
