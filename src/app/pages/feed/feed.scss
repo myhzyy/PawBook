@@ -22,14 +22,51 @@
   border-radius: 50%;
 }
 
+.username {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
 .post-img {
   width: 100%;
   display: block;
   border-radius: 4px;
 }
 
-.caption {
+/* Caption + Likes Section */
+.caption-like-section {
   padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px; /* tighter spacing */
+}
+
+/* Like + Comment row */
+.likes-and-comments {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between buttons */
+  font-size: 1.5rem;
+  justify-content: flex-start;
+}
+
+/* Icon buttons */
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  transition: transform 0.15s ease;
+  padding: 0;
+}
+
+.icon-btn:hover {
+  transform: scale(1.2);
+}
+
+.caption {
+  margin: 0;
   font-size: 0.9rem;
   color: #333;
+  line-height: 1.4;
 }
