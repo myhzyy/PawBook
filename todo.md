@@ -2,8 +2,7 @@
 - sort router for main page ✅
 - add likes and comments to pictures div ✅
 - render some dummy json data into ✅
-- top header and footer should stay static
-
+- top header and footer should stay static ✅
 - change dog images
 - finish all static pages first
 
