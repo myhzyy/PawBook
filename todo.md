@@ -12,6 +12,9 @@
 - make profile page route ✅
 - fix upcoming dog meet ups being static ✅
 - add link to footer to profile ✅
+- route back to home ✅
+- add images onto the service so we can add to backend later
+- add grid to images
 
 ----- TODO -----
 
