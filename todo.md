@@ -17,11 +17,14 @@
 - add grid to images ✅
 - up date other dog photos - 6 photos for each ✅
 - fix photo file structure ✅
-- update likes and comments part - instagram style
-- add friend in top right corner
-- think of left tab
+- update likes and comments part - instagram style ✅
+- Add notifacation page ✅
+- Add Route in footer ✅
+- add friend in top left corner
 
 ----- CURRENT TODO-----
+
+- USER IS LUNATHELAB
 
 ----- TODO LATER-----
 

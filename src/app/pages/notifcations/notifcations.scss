@@ -1,0 +1,55 @@
+.notifications {
+  padding: 15px;
+  background: #fff;
+  min-height: 100vh;
+}
+
+.notifications h2 {
+  margin: 0 0 15px 0;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.notif-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.notif-text {
+  flex: 1;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.notif-text strong {
+  font-weight: 600;
+}
+
+.notif-date {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 2px;
+}
+
+.notif-thumbnail {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-left: 10px;
+}
