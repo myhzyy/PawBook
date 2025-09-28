@@ -15,7 +15,7 @@
 - route back to home ✅
 - add images onto the service so we can add to backend later ✅
 - add grid to images ✅
-- up date other dog photos
+- up date other dog photos - 6 photos for each
 - fix photo file structure
 - update likes and comments part - instagram style
 - add friend in top right corner
