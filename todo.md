@@ -7,6 +7,7 @@
 - implement like amount ✅
 - update like amount and post dates in service ✅
 - bottom footer less straight
+- change buttom icons
 
 ------ features
 
