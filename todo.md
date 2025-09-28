@@ -4,8 +4,9 @@
 - render some dummy json data into ✅
 - top header and footer should stay static ✅
 - change dog images ✅
-- implement like amount
-- finish all static pages first
+- implement like amount ✅
+- update like amount and post dates in service ✅
+- bottom footer less straight
 
 ------ features
 
