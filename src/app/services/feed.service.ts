@@ -20,12 +20,12 @@ export class FeedService {
       username: 'LunaTheLab',
       avatarUrl: 'https://placedog.net/40/40?id=21',
       images: [
-        '/images/Luna-the-lab/funny-dog-image-1.jpg',
-        '/images/Luna-the-lab/funny-dog-image-2.jpg',
-        '/images/Luna-the-lab/funny-dog-image-3.jpg',
-        '/images/Luna-the-lab/funny-dog-image-4.jpg',
-        '/images/Luna-the-lab/funny-dog-image-5.jpg',
-        '/images/Luna-the-lab/funny-dog-image-6.jpg',
+        '/images/Luna-the-lab/Luna-the-lab.jpg',
+        '/images/Luna-the-lab/Luna-the-lab-2.jpg',
+        '/images/Luna-the-lab/Luna-the-lab-3.jpg',
+        '/images/Luna-the-lab/Luna-the-lab-4.jpg',
+        '/images/Luna-the-lab/Luna-the-lab-5.jpg',
+        '/images/Luna-the-lab/Luna-the-lab-6.jpg',
       ],
       caption: 'Chasing squirrels 🐿️ all morning!',
       likes: 503,
@@ -50,7 +50,7 @@ export class FeedService {
     {
       id: 3,
       username: 'Samson-Thedood',
-      avatarUrl: '/images/golden-boy-pp.jpg',
+      avatarUrl: '/images/Samson-thedood/samson-thedood-1.jpg',
       images: [
         '/images/Samson-thedood/samson-thedood-1.jpg',
         '/images/Samson-thedood/samson-thedood-2.jpg',
