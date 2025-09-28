@@ -16,7 +16,14 @@
 - add images onto the service so we can add to backend later
 - add grid to images
 
------ TODO -----
+----- TODO-----
+
+- put an images array on the userProfile
+- import 6 photos onto there
+- loop through in feed.html to get one image on screen
+- loop through all of them in profile to get inside grid
+
+----- TODO LATER-----
 
 - change profile pic icon
 - fix image sizing
