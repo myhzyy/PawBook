@@ -6,10 +6,24 @@
 - change dog images ✅
 - implement like amount ✅
 - update like amount and post dates in service ✅
-- bottom footer less straight
-- change buttom icons
+- bottom footer less straight ✅
+- finalise change buttom icons ✅
+- clean image file structure ✅
+- make profile page route
+
+----- TODO -----
+
+- change profile pic icon
 
 ------ features
 
 - when you click on upcoming dog meet ups it has pop up saying do u want to attend
 - change images to funny dog photos
+
+PAGES -
+
+- HOME ✅
+- LOCAL MEET UPS
+- POST
+- NOTIFACATIONS
+- PROFILE
