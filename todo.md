@@ -13,8 +13,10 @@
 - fix upcoming dog meet ups being static ✅
 - add link to footer to profile ✅
 - route back to home ✅
-- add images onto the service so we can add to backend later
-- add grid to images
+- add images onto the service so we can add to backend later ✅
+- add grid to images ✅
+- up date other dog photos
+- fix photo file structure
 
 ----- TODO-----
 
@@ -33,6 +35,7 @@
 
 - when you click on upcoming dog meet ups it has pop up saying do u want to attend
 - change images to funny dog photos
+- top right should be add pal/buddy
 
 PAGES -
 

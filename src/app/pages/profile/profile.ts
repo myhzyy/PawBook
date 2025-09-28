@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { PhotoGrid } from '../../components/photo-grid/photo-grid';
 
 @Component({
   selector: 'app-profile',
-  imports: [],
+  imports: [PhotoGrid],
   templateUrl: './profile.html',
-  styleUrl: './profile.scss'
+  styleUrl: './profile.scss',
 })
-export class Profile {
-
-}
+export class Profile {}

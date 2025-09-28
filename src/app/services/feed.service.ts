@@ -36,7 +36,7 @@ export class FeedService {
       username: 'BabyJasper1',
       avatarUrl: 'https://placedog.net/40/40?id=23',
       images: [
-        '/images/Luna-the-lab/funny-dog-image-1.jpg',
+        '/images/funny-dog-image-2.jpg',
         '/images/Luna-the-lab/funny-dog-image-2.jpg',
         '/images/Luna-the-lab/funny-dog-image-3.jpg',
         '/images/Luna-the-lab/funny-dog-image-4.jpg',
@@ -52,8 +52,8 @@ export class FeedService {
       username: 'GoldenboyCooper3',
       avatarUrl: '/images/golden-boy-pp.jpg',
       images: [
-        '/images/Luna-the-lab/funny-dog-image-1.jpg',
-        '/images/Luna-the-lab/funny-dog-image-2.jpg',
+        '/images/golden-boy-pp.jpg',
+        '/images/Luna-the-lab/funny-dog-image.jpg',
         '/images/Luna-the-lab/funny-dog-image-3.jpg',
         '/images/Luna-the-lab/funny-dog-image-4.jpg',
         '/images/Luna-the-lab/funny-dog-image-5.jpg',
