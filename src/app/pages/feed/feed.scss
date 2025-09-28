@@ -100,3 +100,19 @@
   font-size: 12px;
   font-weight: 100;
 }
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}

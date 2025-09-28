@@ -17,14 +17,9 @@
 - add grid to images ✅
 - up date other dog photos
 - fix photo file structure
+- update likes and comments part - instagram style
 
------ TODO-----
-
-- put an images array on the userProfile ✅
-- import 6 photos onto there ✅
-- update other dog photos
-- loop through in feed.html to get one image on screen
-- loop through all of them in profile to get inside grid
+----- CURRENT TODO-----
 
 ----- TODO LATER-----
 
@@ -36,11 +31,14 @@
 - when you click on upcoming dog meet ups it has pop up saying do u want to attend
 - change images to funny dog photos
 - top right should be add pal/buddy
+- birthday on profile
+- loves / hates
+- give a wuff as a like
 
 PAGES -
 
 - HOME ✅
-- LOCAL MEET UPS
+- LOCAL MEET UPS / WALKS IN YOUR AREA
 - POST
 - NOTIFACATIONS
 - PROFILE
