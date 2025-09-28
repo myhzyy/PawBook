@@ -215,3 +215,15 @@
   border-radius: 50%; /* optional: make it circular */
   object-fit: cover;
 }
+
+.page-content {
+  flex: 1;
+  overflow-y: auto;
+  background: #fff;
+
+  /* leave room for header (50px) + events (~70px) */
+  margin-top: 190px;
+
+  /* leave room for footer */
+  padding-bottom: 70px;
+}
