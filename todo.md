@@ -18,6 +18,8 @@
 - up date other dog photos
 - fix photo file structure
 - update likes and comments part - instagram style
+- add friend in top right corner
+- think of left tab
 
 ----- CURRENT TODO-----
 
