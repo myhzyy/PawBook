@@ -9,7 +9,8 @@
 - bottom footer less straight ✅
 - finalise change buttom icons ✅
 - clean image file structure ✅
-- make profile page route
+- make profile page route ✅
+- fix upcoming dog meet ups being static ✅
 
 ----- TODO -----
 
