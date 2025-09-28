@@ -18,8 +18,9 @@
 
 ----- TODO-----
 
-- put an images array on the userProfile
-- import 6 photos onto there
+- put an images array on the userProfile ✅
+- import 6 photos onto there ✅
+- update other dog photos
 - loop through in feed.html to get one image on screen
 - loop through all of them in profile to get inside grid
 
