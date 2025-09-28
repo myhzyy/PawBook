@@ -34,7 +34,7 @@ export class FeedService {
       postDate: '23nd July 2023',
     },
     {
-      id: 2,
+      id: 3,
       username: 'GoldenboyCooper3',
       avatarUrl: '/images/golden-boy-pp.jpg',
       imageUrl: '/images/funny-dog-image-2.jpg',

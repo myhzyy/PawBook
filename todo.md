@@ -11,10 +11,12 @@
 - clean image file structure ✅
 - make profile page route ✅
 - fix upcoming dog meet ups being static ✅
+- add link to footer to profile ✅
 
 ----- TODO -----
 
 - change profile pic icon
+- fix image sizing
 
 ------ features
 
