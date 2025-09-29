@@ -26,15 +26,25 @@
   <footer class="bottom-nav">
     <!-- Home Tab -->
 
-    <a class="nav-item" routerLink="" routerLinkActive="active">
+    <a
+      class="nav-item"
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
       <img src="/images/footer-icons/footer-home-icon.svg" alt="Home" class="nav-icon-img" />
     </a>
 
     <!-- Meet Ups Tab -->
 
-    <button class="nav-item">
-      <img src="/images/footer-icons/dog-walk-icon.png" alt="Meet ups" class="nav-icon-img" />
-    </button>
+    <a
+      class="nav-item"
+      routerLink="/meetUps"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      <img src="/images/footer-icons/dog-walk-icon.png" alt="Home" class="nav-icon-img" />
+    </a>
 
     <!-- Post Tab -->
 
@@ -44,12 +54,22 @@
 
     <!-- Notifacation Tab -->
 
-    <a class="nav-item" routerLink="/notifications" alt="notifacation">
+    <a
+      class="nav-item"
+      routerLink="/notifications"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
       <img src="/images/footer-icons/paw-like-icon.svg" alt="Paw like" class="nav-icon-img" />
     </a>
 
     <!-- Profile Tab -->
-    <a class="nav-item" routerLink="/profile" routerLinkActive="active">
+    <a
+      class="nav-item"
+      routerLink="/profile"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
       <img src="/images/footer-icons/dog-profile-pic-icon.svg" alt="Profile" class="nav-icon-img" />
     </a>
   </footer>
