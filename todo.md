@@ -24,6 +24,8 @@
 - add meet ups route ✅
 - put main page in own components ✅
 - change profile pic icon at bottom ✅
+- change add friend icon ✅
+- change system settings ✅
 
 ----- CURRENT TODO-----
 
@@ -31,6 +33,7 @@
 
 ----- TODO LATER-----
 
+- top right system that has dark mode
 - fix image sizing
 - add friend in top left corner
 
