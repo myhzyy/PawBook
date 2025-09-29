@@ -143,18 +143,9 @@
   cursor: pointer;
 }
 
-.nav-itemactive {
-  border: 2px solid red;
-}
-
 .nav-item.active {
   color: #00bfff;
-}
-
-.profile-icon {
-  border-radius: 50%;
-  width: 28px;
-  height: 28px;
+  border: 2px solid red;
 }
 
 .nav-icon-img {
@@ -162,6 +153,12 @@
   height: 28px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.profile-icon {
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
 }
 
 .page-content {
