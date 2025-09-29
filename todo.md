@@ -20,6 +20,7 @@
 - update likes and comments part - instagram style ✅
 - Add notifacation page ✅
 - Add Route in footer ✅
+- add active green when footer is highlighted
 - add friend in top left corner
 
 ----- CURRENT TODO-----

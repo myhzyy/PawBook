@@ -143,6 +143,10 @@
   cursor: pointer;
 }
 
+.nav-itemactive {
+  border: 2px solid red;
+}
+
 .nav-item.active {
   color: #00bfff;
 }
