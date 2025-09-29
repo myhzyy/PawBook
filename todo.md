@@ -22,6 +22,8 @@
 - Add Route in footer ✅
 - add highlight when buttons clicked ✅
 - add meet ups route ✅
+- test text in left hand side until we add 'add friends'
+- put main page in own components
 - add friend in top left corner
 
 ----- CURRENT TODO-----
