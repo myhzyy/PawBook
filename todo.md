@@ -23,7 +23,7 @@
 - add highlight when buttons clicked ✅
 - add meet ups route ✅
 - put main page in own components ✅
-- change profile pic icon at bottom
+- change profile pic icon at bottom ✅
 
 ----- CURRENT TODO-----
 
