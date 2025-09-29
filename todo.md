@@ -22,9 +22,8 @@
 - Add Route in footer ✅
 - add highlight when buttons clicked ✅
 - add meet ups route ✅
-- test text in left hand side until we add 'add friends'
-- put main page in own components
-- add friend in top left corner
+- put main page in own components ✅
+- change profile pic icon at bottom
 
 ----- CURRENT TODO-----
 
@@ -32,8 +31,8 @@
 
 ----- TODO LATER-----
 
-- change profile pic icon
 - fix image sizing
+- add friend in top left corner
 
 ------ features
 

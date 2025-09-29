@@ -51,8 +51,8 @@
   flex: 1;
   overflow-y: auto;
   background: #fff;
-  margin-top: 120px; /* header (50px) + events (~70px) */
-  padding-bottom: 70px; /* avoid overlap with footer */
+  margin-top: 120px;
+  padding-bottom: 70px;
 }
 
 .post {
@@ -169,4 +169,12 @@
   background: #fff;
   margin-top: 75px;
   padding-bottom: 70px;
+}
+
+.profile-icon {
+  border: 1px solid #00bfff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
 }
