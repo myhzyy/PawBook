@@ -26,7 +26,8 @@
 - change profile pic icon at bottom ✅
 - change add friend icon ✅
 - change system settings ✅
-- start to implement MongoDb backend ✅
+- start to implement MongoDb backend
+- plan schema for mongoDb
 
 ----- CURRENT TODO-----
 
